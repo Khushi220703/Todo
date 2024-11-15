@@ -1,0 +1,123 @@
+.listOfTodo{
+    margin: auto;
+    width: 54%;
+    background-color: white;
+    border-radius: 2px;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    left: 23%;
+    top: 43%;
+}
+
+.todos{
+    width: 92%;
+}
+
+.todo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(243, 243, 246);
+    margin: 10px;
+    border-radius: 5px;
+    
+    padding: 0 4px;
+}
+
+.action{
+    display: flex;
+    flex-direction: row;
+}
+
+.right-icon:hover{
+    background-color:rgb(227, 225, 225);
+    cursor: pointer;
+    margin:0px 4px;
+    padding:0px 4px;
+}
+
+ .editButton:hover{
+    background-color:rgb(227, 225, 225);
+    cursor: pointer;
+    margin: 0px 4px;
+    padding:0px 4px;
+}
+
+.editForm{
+    background-color: rgb(52, 49, 49);
+    border-radius: 2px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 145px;
+    display: none;
+    width: 100%;
+     
+
+}
+.edit-heading{
+    color: white;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 42%;
+    margin: auto;
+    margin-top: 10px;
+}
+.edit-button{
+    width: 170px;
+    height: 30px;
+    border-radius: 2px;
+    
+}
+
+ .cross-icon:hover{
+    background-color:rgb(227, 225, 225);
+    cursor: pointer;
+    margin:0px 4px;
+    padding:0px 4px;
+}
+
+.pagination-controler{
+    display: inline;
+    width: 100%;
+    margin-left: 30%;
+}
+
+.pagination-button{
+    background-image: linear-gradient(to left, rgb(89, 177, 240),rgb(83, 212, 252));
+    color: white;
+    font-weight: bold;
+    width: 15%;
+    height: 10%;
+}
+
+@media (max-width: 480px){
+    .listOfTodo{
+        margin: auto;
+        width: 92.8%;
+        left: 3.5%;
+        top: 29%;
+    }
+    .todos{
+        width: 85%;
+    }
+    .todo{
+        margin: 1px;
+    }
+    .pagination-controler{
+       
+        margin-left: 22%;
+        
+    }
+}
